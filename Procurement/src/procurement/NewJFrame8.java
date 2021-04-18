@@ -111,7 +111,7 @@ try {
                     
                     ad.add(e);
                 }
-                System.out.println("     Name    "+"      Email    "+"    Cnic   "+"Phone Number"+" Password"+"Adress");
+                System.out.println(" Name    "+"      Email     "+"       Cnic       "+"Phone Number     "+"Password    "+"         Adress");
                 for(Employy a: ad){
                     
                 System.out.println(a.getEmp()+","+a.getEmaiil()+","+a.getCNIC()+","+a.getNum()+","+a.getpass()+","+a.getAddress());

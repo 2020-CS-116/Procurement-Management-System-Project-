@@ -141,6 +141,8 @@ public class NewJFrame9 extends javax.swing.JFrame {
         int pen=20;
         int book=20;
         int sticky=30;
+        System.out.flush();
+        System.out.println("-Accessories-");
         System.out.println("Laptop ="+lap);
         System.out.println("Pen ="+pen);
         System.out.println("Book ="+book);
@@ -171,6 +173,7 @@ public class NewJFrame9 extends javax.swing.JFrame {
                     
                     ad.add(e);
                 }
+                System.out.println("All REQUESTS BY EMPLOYS-");
                 for(Request a: ad){
                     
                 System.out.println(a.getEmp()+","+a.getCNIC()+","+a.getNum()+","+a.getrequest()+","+a.getamoub());
